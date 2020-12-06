@@ -15,7 +15,7 @@ public class Main {
         sweator.show();
         System.out.println();
 
-        Dress dress = new Jeans(new Sweater(new Person("B"))); // 为person按照一定顺序新增功能
+        Dress dress = new Jeans(new Sweater(new Person("B"))); // 为person按照一定顺序动态地添加新功能
         dress.show();
         System.out.println();
     }
